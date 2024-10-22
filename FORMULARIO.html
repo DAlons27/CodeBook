@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeBook-Soporte</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="INICIO.html">
+                <img src="Logos/logo-final-Photoroom.png" alt="Logo de CodeBook">
+            </a>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar autor, nombre, ISN">
+            <button>🔍</button>
+        </div>
+        <div class="nav-links">
+            <a href="https://medium.com/@repopkukato" target="_blank"><img src="icon/open-book.png" alt="Blog" width="24">Blog</a>
+            <a href=""><img src="icon/user.png" alt="Regístrate" width="24">Regístrate</a>
+            <a href=""><img src="icon/language.png" alt="ES" width="24">ES</a>
+            <a href=""><img src="icon/product.png" alt="Carrito" width="24">Carrito</a>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="nav">
+            <li>
+                <a href="INICIO.html">Inicio</a>
+            </li>
+            <li>
+                <a href="CATEGORIAS.html">Categorías</a>
+                <ul class="dropdown">
+                    <li><a href="CATEGORIAS.html##Lenguajes-de-Programación">Lenguajes de Programación</a></li>
+                    <li><a href="CATEGORIAS.html#Desarrollo-Web">Desarrollo Web</a></li>
+                    <li><a href="CATEGORIAS.html#Inteligencia-Artificial">Inteligencia Artificial y Machine Learning</a></li>
+                    <li><a href="CATEGORIAS.html#Desarrollo-de-Aplicaciones ">Desarrollo de aplicaciones moviles</a></li>
+                    <li><a href="CATEGORIAS.html#Bases-de-Datos">Base de Datos</a></li>
+                    <li><a href="CATEGORIAS.html#Algoritmos-y-Estructuras-de- Datos">Algoritmos y Estructura de Datos</a></li>
+                    <li><a href="CATEGORIAS.html#Seguridad-Informática">Seguridad Informática</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Novedades</a>
+                <ul class="dropdown">
+                    <li><a href="#">Nuevos Lanzamientos</a></li>
+                    <li><a href="#">Los más vendidos del año</a></li>
+                    <li><a href="#">Los 100 más vendidos del mes</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Descuentos y Ofertas</a>
+                <ul class="dropdown">
+                    <li><a href="#">Precio menor a $100</a></li>
+                    <li><a href="#">Precio mayor a $100</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="OPINIONES.html">Testimonios</a>
+            </li>
+            <li>
+                <a href="FORMULARIO.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="soporte">
+
+            <div class="soporte-contenedor">
+                <span class="texto-soporte">Centro de Soporte</span>
+                <img src="icon/apreton-de-manos.png" alt="Icono de manos estrechándose" class="icono">
+            </div>
+            
+            <div class="opciones-autogestion">
+                <div class="opcion">
+                    <img src="icon/apuntando-a-la-derecha.png" alt="Icono" class="icono-opcion">
+                    <span>Todavía no he comprado</span>
+                </div>
+                <div class="opcion">
+                    <img src="icon/apuntando-a-la-derecha.png" alt="Icono" class="icono-opcion">
+                    <span>Ya he realizado mi pedido</span>
+                </div>
+                <div class="opcion">
+                    <img src="icon/apuntando-a-la-derecha.png" alt="Icono" class="icono-opcion">
+                    <span>Ya recibí mi pedido</span>
+                </div>
+                <div class="opcion">
+                    <img src="icon/apuntando-a-la-derecha.png" alt="Icono" class="icono-opcion">
+                    <span>Quitar usuario</span>
+                </div>
+            </div>
+
+            <div class="texto-informativo">
+                <p>Si tu consulta no es resuelta llena el formulario para ponernos en contacto </p>
+            </div>
+            
+            <div class="mapa-formulario">
+                <div class="mapa" id="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d975.6882812636345!2d-77.07113865447168!3d-11.991576903728063!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105ce5bd29bb957%3A0xa2b50f7978c91081!2sMunicipalidad%20de%20Los%20Olivos!5e0!3m2!1ses!2spe!4v1729590049893!5m2!1ses!2spe" width="100%" height="520" style="border: 4px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div>
+                    <form class="formulario-contacto">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="nombre">Nombre y Apellido:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+
+                        <label for="asunto">Asunto:</label>
+                        <input type="text" id="asunto" name="asunto" required>
+
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-section logo">
+            <img src="Logos/logo-final-Photoroom.png" alt="Logo CodeBook" class="logo-img" />
+            <span> - Derechos Reservados, Lima - Perú</span>
+        </div>
+        <div class="footer-section info">
+            <img src="Logos/DAMQ.jpeg" alt="Foto de Diego Alonso Morey Quispe" class="foto">
+            <div class="info-texto">
+                <p>Diego Alonso Morey Quispe</p>
+                <div class="iconos">
+                    <a href="https://www.linkedin.com/in/admorey/" target="_blank"><img src="icon/linkedin.png" alt="LinkedIn"></a>
+                    <a href="https://www.instagram.com/damoreyq/?hl=es" target="_blank"><img src="icon/instagram.png" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100057410209855" target="_blank"><img src="icon/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="icon/youtube.png" alt="Youtube"></a>
+                    <a href="https://es.pinterest.com/" target="_blank"><img src="icon/pinterest.png" alt="Pinterest"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

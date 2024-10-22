@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeBook-Categorias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="INICIO.html">
+                <img src="Logos/logo-final-Photoroom.png" alt="Logo de CodeBook">
+            </a>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar autor, nombre, ISN">
+            <button>🔍</button>
+        </div>
+        <div class="nav-links">
+            <a href="https://medium.com/@repopkukato" target="_blank"><img src="icon/open-book.png" alt="Blog" width="24">Blog</a>
+            <a href=""><img src="icon/user.png" alt="Regístrate" width="24">Regístrate</a>
+            <a href=""><img src="icon/language.png" alt="ES" width="24">ES</a>
+            <a href=""><img src="icon/product.png" alt="Carrito" width="24">Carrito</a>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="nav">
+            <li>
+                <a href="INICIO.html">Inicio</a>
+            </li>
+            <li>
+                <a href="CATEGORIAS.html">Categorías</a>
+                <ul class="dropdown">
+                    <li><a href="#">Lenguajes de Programación</a></li>
+                    <li><a href="#">Desarrollo Web</a></li>
+                    <li><a href="#">Inteligencia Artificial y Machine Learning</a></li>
+                    <li><a href="#">Desarrollo de aplicaciones moviles</a></li>
+                    <li><a href="#">Base de Datos</a></li>
+                    <li><a href="#">Algoritmos y Estructura de Datos</a></li>
+                    <li><a href="#">Seguridad Informática</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Novedades</a>
+                <ul class="dropdown">
+                    <li><a href="#">Nuevos Lanzamientos</a></li>
+                    <li><a href="#">Los más vendidos del año</a></li>
+                    <li><a href="#">Los 100 más vendidos del mes</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Descuentos y Ofertas</a>
+                <ul class="dropdown">
+                    <li><a href="#">Precio menor a $100</a></li>
+                    <li><a href="#">Precio mayor a $100</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="OPINIONES.html">Testimonios</a>
+            </li>
+            <li>
+                <a href="FORMULARIO.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="contenedor-categorias">
+            <aside class="menu-lateral">
+                <ul>
+                    <li id="Lenguajes-de-Programación" class="li-lenguaje">Lenguajes de Programación
+                        <ul class="submenu">
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>Java</li>
+                            <li>C++</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </li>
+                    <li id="Desarrollo-Web">Desarrollo Web
+                        <ul class="submenu">
+                            <li>HTML & CSS</li>
+                            <li>React</li>
+                            <li>Angular</li>
+                            <li>Vue.js</li>
+                            <li>Node.js</li>
+                        </ul>
+                    </li>
+                    <li id="Inteligencia-Artificial">Inteligencia Artificial y Machine Learning
+                        <ul class="submenu">
+                            <li>TensorFlow</li>
+                            <li>PyTorch</li>
+                            <li>Scikit-learn</li>
+                            <li>Keras</li>
+                            <li>Pandas</li>
+                        </ul>
+                    </li>
+                    <li id="Desarrollo-de-Aplicaciones">Desarrollo de Aplicaciones Móviles
+                        <ul class="submenu">
+                            <li>Android</li>
+                            <li>iOS</li>
+                            <li>Flutter</li>
+                            <li>React Native</li>
+                            <li>Xamarin</li>
+                        </ul>
+                    </li>
+                    <li id="Bases-de-Datos">Bases de Datos
+                        <ul class="submenu">
+                            <li>MySQL</li>
+                            <li>PostgreSQL</li>
+                            <li>MongoDB</li>
+                            <li>SQLite</li>
+                            <li>Oracle</li>
+                        </ul>
+                    </li>
+                    <li id="Algoritmos-y-Estructuras-de- Datos">Algoritmos y Estructuras de Datos
+                        <ul class="submenu">
+                            <li>Listas</li>
+                            <li>Árboles</li>
+                            <li>Grafos</li>
+                            <li>Ordenamiento</li>
+                            <li>Búsqueda</li>
+                        </ul>
+                    </li>
+                    <li id= "Seguridad-Informática" class="li-seguridad">Seguridad Informática
+                        <ul class="submenu">
+                            <li>Criptografía</li>
+                            <li>Redes Seguras</li>
+                            <li>Hacking Ético</li>
+                            <li>Seguridad Web</li>
+                            <li>Forense Digital</li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="box-seleccion">
+                    <div class="texto-logo">
+                        <h2>Idioma</h2>
+                        <img src="icon/idioma.png" alt="Idioma">    
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" id="ingles"> Español
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" id="frances"> Inglés
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" id="frances"> Francés
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" id="frances"> Aleman
+                        </label>
+                    </div>
+                </div>
+                <div class="box-seleccion">
+                    <div class="texto-logo">
+                        <h2>Encuadernación</h2>
+                        <img src="icon/libro.png" alt="Encuadernación">
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" id="ingles"> Tapa Blanda
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" id="frances"> Tapa Dura
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" id="frances"> En Espiral
+                        </label>
+                    </div>
+                </div>
+            </aside>
+
+            <section class="portadas-libros">
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/img15.jpg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Curso Intensivo de Python</p>
+                    </a>
+                </div>
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/101.jpg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Hacking Etico con Herramientas Python</p>
+                    </a>
+                </div>
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/102.jpg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Desarrollo de Microservicios con Python</p>
+                    </a>
+                </div>
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/103.jpg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Aprenda a Programar con Python 3</p>
+                    </a>
+                </div>
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/104.jpg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Estadística Práctica Para Ciencia de Datos con r y Python</p>
+                    </a>
+                </div>
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/105.jpg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Desarrollo de modelos Machine Learning y Deep Learning con Python</p>
+                    </a>
+                </div>
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/106.jpg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Python Para Finanzas</p>
+                    </a>
+                </div>
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/68dfa636e61184ff02fa77f497dcc686.jpeg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Python Crash Course</p>
+                    </a>
+                </div>
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/108.jpg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Python for Everybody: Exploring Data in Python 3 (en Inglés)</p>
+                    </a>
+                </div>
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/109.jpg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Python Machine Learning aprendizaje automatico y aprendizaje</p>
+                    </a>
+                </div>
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/110.jpg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Python Práctico</p>
+                    </a>
+                </div>
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/111.jpg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Python 3</p>
+                    </a>
+                </div>
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/112.jpg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Python: Guía Paso a Paso Para Aprender Programación Python</p>
+                    </a>
+                </div>
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/113.jpg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Python Programming: The Fundamental Beginner’S Guide to Learning Python (en Inglés)</p>
+                    </a>
+                </div>
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/114.jpg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Machine Learning e Python: Um Guia Prático à Ciência de Dados (en Portugués)</p>
+                    </a>
+                </div>
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/115.jpg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Black hat Python: Python Programming for Hackers and Pentesters (en Inglés)</p>
+                    </a>
+                </div>
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/116.jpg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Python Para Analisis de Datos (Titulos Especiales)</p>
+                    </a>
+                </div>
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/117.jpg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Introducción a la Programación con Python</p>
+                    </a>
+                </div>
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/118.jpg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Deep Learning con Python</p>
+                    </a>
+                </div>
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/119.jpg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Micro: Bit y Python</p>
+                    </a>
+                </div>
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/120.jpg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Python for Data Analysis: Data Wrangling With Pandas, Numpy, and Ipython (en Inglés)</p>
+                    </a>
+                </div>
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/121.jpg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Criptografía sin Secretos con Python</p>
+                    </a>
+                </div>
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/122.jpg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Python Paso a Paso</p>
+                    </a>
+                </div>
+                <div class="libro">
+                    <a href="Libro.html">
+                        <img src="Destacados/123.jpg" alt="Portada del libro">
+                    </a>
+                    <a href="Libro.html">
+                        <p>Big Data con Python. Recolección, Almacenamiento y Proceso</p>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-section logo">
+            <img src="Logos/logo-final-Photoroom.png" alt="Logo CodeBook" class="logo-img" />
+            <span> - Derechos Reservados, Lima - Perú</span>
+        </div>
+        <div class="footer-section info">
+            <img src="Logos/DAMQ.jpeg" alt="Foto de Diego Alonso Morey Quispe" class="foto">
+            <div class="info-texto">
+                <p>Diego Alonso Morey Quispe</p>
+                <div class="iconos">
+                    <a href="https://www.linkedin.com/in/admorey/" target="_blank"><img src="icon/linkedin.png" alt="LinkedIn"></a>
+                    <a href="https://www.instagram.com/damoreyq/?hl=es" target="_blank"><img src="icon/instagram.png" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100057410209855" target="_blank"><img src="icon/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="icon/youtube.png" alt="Youtube"></a>
+                    <a href="https://es.pinterest.com/" target="_blank"><img src="icon/pinterest.png" alt="Pinterest"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

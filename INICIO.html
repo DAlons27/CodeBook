@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeBook</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="INICIO.html">
+                <img src="Logos/logo-final-Photoroom.png" alt="Logo de CodeBook">
+            </a>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar autor, nombre, ISN">
+            <button>🔍</button>
+        </div>
+        <div class="nav-links">
+            <a href="https://medium.com/@repopkukato" target="_blank"><img src="icon/open-book.png" alt="Blog" width="24">Blog</a>
+            <a href=""><img src="icon/user.png" alt="Regístrate" width="24">Regístrate</a>
+            <a href=""><img src="icon/language.png" alt="ES" width="24">ES</a>
+            <a href=""><img src="icon/product.png" alt="Carrito" width="24">Carrito</a>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="nav">
+            <li>
+                <a href="">Inicio</a>
+            </li>
+            <li>
+                <a href="CATEGORIAS.html">Categorías</a>
+                <ul class="dropdown">
+                    <li><a href="CATEGORIAS.html##Lenguajes-de-Programación">Lenguajes de Programación</a></li>
+                    <li><a href="CATEGORIAS.html#Desarrollo-Web">Desarrollo Web</a></li>
+                    <li><a href="CATEGORIAS.html#Inteligencia-Artificial">Inteligencia Artificial y Machine Learning</a></li>
+                    <li><a href="CATEGORIAS.html#Desarrollo-de-Aplicaciones ">Desarrollo de aplicaciones moviles</a></li>
+                    <li><a href="CATEGORIAS.html#Bases-de-Datos">Base de Datos</a></li>
+                    <li><a href="CATEGORIAS.html#Algoritmos-y-Estructuras-de- Datos">Algoritmos y Estructura de Datos</a></li>
+                    <li><a href="CATEGORIAS.html#Seguridad-Informática">Seguridad Informática</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Novedades</a>
+                <ul class="dropdown">
+                    <li><a href="#">Nuevos Lanzamientos</a></li>
+                    <li><a href="#">Los más vendidos del año</a></li>
+                    <li><a href="#">Los 100 más vendidos del mes</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Descuentos y Ofertas</a>
+                <ul class="dropdown">
+                    <li><a href="#">Precio menor a $100</a></li>
+                    <li><a href="#">Precio mayor a $100</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="OPINIONES.html">Testimonios</a>
+            </li>
+            <li>
+                <a href="FORMULARIO.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="banner-principal">
+            <div class="carousel">
+                <button class="prev" onclick="prevSlide()">&#10094;</button>
+                <div class="slides">
+                    <img src="bannerCarrusel/bannerPrincipal.png" alt="bannerPrincipal">
+                    <img src="bannerCarrusel/banner1.png" alt="Banner-1">
+                    <img src="bannerCarrusel/banner2.png" alt="Banner-2">
+                </div>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+            </div>
+        </section>
+        
+        <div class="banner-secundario">
+            <div class="minibanner">
+                <img src="minibanners/minibanner1.png" alt="Imagen 1">
+            </div>
+            <div class="minibanner">
+                <img src="minibanners/minibanner2.png" alt="Imagen 2">
+            </div>
+            <div class="minibanner">
+                <img src="minibanners/minibanner3.png" alt="Imagen 3">
+            </div>
+            <div class="minibanner">
+                <img src="minibanners/minibanner4.png" alt="Imagen 4">
+            </div>
+        </div>
+
+        <section class="destacados">
+            <h2>
+                <span class="titulo-destacados">✨Destacados</span>
+            </h2>
+            <div class="contenedor-centro">
+                <div class="productos-destacados">
+                    <div class="producto">
+                        <img src="Destacados/img1.jpg" alt="Lógica de Programación">
+                        <h3>Lógica de Programación</h3>
+                        <p>Autor: Omar Iván Buriticá </p>
+                        <p>Ediciones De La U · Tapa Blanda</p>
+                        <p><span class="precio"> S/ 85.00</span></p>
+                    </div>
+                    <div class="producto">
+                        <img src="Destacados/img2.jpg" alt="Cómo Comprender la Pnl: Introducción a la Programación Neurolingüística">
+                        <h3>Cómo Comprender la PNL</h3>
+                        <p>Autor: Catherine Cudicio </p>
+                        <p>Granica · Tapa Blanda</p>
+                        <p><span class="precio"> S/ 57.00</span></p>
+                    </div>
+                    <div class="producto">
+                        <img src="Destacados/img3.jpg" alt="Planificación, Programación y Control de Proyectos Primavera p6">
+                        <h3>Primavera P6</h3>
+                        <p>Autor: Francisco Salazar </p>
+                        <p>Planeta, 2024, 1 Edición, Tapa Blanda, Nuevo</p>
+                        <p><span class="precio"> S/ 67.00</span></p>
+                    </div>
+                    <div class="producto">
+                        <img src="Destacados/img4.jpg" alt="Título del libro 4">
+                        <h3>Fundamentos de programación usando C++</h3>
+                        <p>Autor: A.A.V.V</p>
+                        <p>Fondo Editorial Universidad César Vallejo, 2022, Tapa Blanda, Nuevo</p><p><span class="precio"> S/ 106.00</span></p>
+                    </div>
+                    <div class="producto">
+                        <img src="Destacados/img5.jpg" alt="Título del libro 5">
+                        <h3>Programacion en GO</h3>
+                        <p>Autor: Mario Macías </p>
+                        <p>Marcombo, 2020, 1 Edición, Tapa Blanda, Nuevo</p><p><span class="precio"> S/ 115.50</span></p>
+                    </div>
+                    <div class="producto">
+                        <img src="Destacados/img6.jpg" alt="Título del libro 6">
+                        <h3>Planificacion y Programacion Deportiva</h3>
+                        <p>Autor: Garcia Manso,Garcia Manso</p>
+                        <p>Ditorial Kinesis, 2021, Tapa Blanda, Fisico, Nuevo</p><p><span class="precio"> S/ 80.50</span></p>
+                    </div>
+                    <div class="producto">
+                        <img src="Destacados/img7.jpg" alt="Título del libro 7">
+                        <h3>Programación de Obras de Instrumentación</h3>
+                        <p>Autor: Javier Reátegui Villanueva</p>
+                        <p>PUCP, 2021, Tapa Blanda, Nuevo</p><p><span class="precio"> S/ 20.00</span></p>
+                    </div>
+                    <div class="producto">
+                        <img src="Destacados/img8.jpg" alt="Título del libro 8">
+                        <h3>Fundamentos de Programacion</h3>
+                        <p>Autor: Luis Joyanes Aguilar </p>
+                        <p>Mcgraw-Hill, 2020, Fisico, Nuevo</p><p><span class="precio"> S/ 49.00</span></p>
+                    </div>
+                    <div class="producto">
+                        <img src="Destacados/img9.jpg" alt="Título del libro 9">
+                        <h3>La Práctica de la Programación</h3>
+                        <p>Autor: Simone Santini </p>
+                        <p>Editorial Club Universitario, 2015, Tapa Blanda, Nuevo</p>
+                        <p><p><span class="precio"> S/ 115.00</span></p>
+                    </div>
+                    <div class="producto">
+                        <img src="Destacados/img10.jpg" alt="Título del libro 10">
+                        <h3>Programación Orientada a Objetos</h3>
+                        <p>Autor: Juan Carlos Moreno Pérez </p>
+                        <p>Ra-Ma, 2014, Fisico,Nuevo</p>
+                        <p><p><span class="precio"> S/ 81.50</span></p>
+                    </div>
+                    <div class="producto">
+                        <img src="Destacados/img11.jpg" alt="Título del libro 11">
+                        <h3>Manual Programación Neurolingüística</h3>
+                        <p>Autor: Icb Editores</p>
+                        <p>Icb Editores, 2012, Tapa Blanda, Nuevo</p>
+                        <p><p><span class="precio"> S/ 49.50</span></p>
+                    </div>
+                    <div class="producto">
+                        <img src="Destacados/img12.jpg" alt="Título del libro 12">
+                        <h3>Aprender la Programación Orientada a Objetos con el Lenguaje c#</h3>
+                        <p>Autor: Luc Gervais</p>
+                        <p>Editorial, 2016, Tapa Blanda, Nuevo</p><p><span class="precio"> S/ 138.70</span></p>
+                    </div>
+                    <div class="producto">
+                        <img src="Destacados/img13.jpg" alt="Título del libro 13">
+                        <h3>Principios de Programacion</h3>
+                        <p>Autor: Camilo Chacón Sartori</p>
+                        <p>Marcombo, 2021, Tapa Blanda, Nuevo</p><p><span class="precio"> S/ 135.30</span></p>
+                    </div>
+                    <div class="producto">
+                        <img src="Destacados/img14.jpg" alt="Título del libro 14">
+                        <h3>Programacion Lineal Aplicada</h3>
+                        <p>Autor: Humberto Guerrero Salas </p>
+                        <p>Ecoe Ediciones, 2017, Tapa Blanda, Nuevo</p><p><span class="precio"> S/ 58.30</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+        <div class="footer-section logo">
+            <img src="Logos/logo-final-Photoroom.png" alt="Logo CodeBook" class="logo-img" />
+            <span> - Derechos Reservados, Lima - Perú</span>
+        </div>
+        <div class="footer-section info">
+            <img src="Logos/DAMQ.jpeg" alt="Foto de Diego Alonso Morey Quispe" class="foto">
+            <div class="info-texto">
+                <p>Diego Alonso Morey Quispe</p>
+                <div class="iconos">
+                    <a href="https://www.linkedin.com/in/admorey/" target="_blank"><img src="icon/linkedin.png" alt="LinkedIn"></a>
+                    <a href="https://www.instagram.com/damoreyq/?hl=es" target="_blank"><img src="icon/instagram.png" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100057410209855" target="_blank"><img src="icon/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="icon/youtube.png" alt="Youtube"></a>
+                    <a href="https://es.pinterest.com/" target="_blank"><img src="icon/pinterest.png" alt="Pinterest"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
