@@ -6,7 +6,7 @@ Incio:
 ![image](https://github.com/user-attachments/assets/a04b95dd-a1e4-440c-a3f9-dc9a98de51ec)
 
 
-Categotias:
+Categorias:
 ![image](https://github.com/user-attachments/assets/8c05717b-298b-40e5-b0b7-cda1716a1d25)
 
 
